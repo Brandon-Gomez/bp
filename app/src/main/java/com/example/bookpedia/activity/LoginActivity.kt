@@ -137,14 +137,14 @@ fun LoginScreen(formType: String, modifier: Modifier = Modifier) {
             when (formType) {
                 "LOGIN" -> {
                     // Aquí iría tu formulario de login
-                    Text("Login")
+                    //Text("Login")
                     LoginCard()
 
                     // Agrega tus campos de email, password, botón, etc.
                 }
                 "SIGNUP" -> {
                     // Aquí iría tu formulario de registro
-                    Text("Sign Up")
+                    //Text("Sign Up")
                     // Agrega tus campos de nombre, email, password, etc.
                 }
             }
@@ -167,7 +167,6 @@ fun SemiCircleBottomImage(imageRes: Int) {
                     val path = Path().apply {
                         // Parte superior izquierda
                         moveTo(0f, 0f)
-                        // Parte superior derecha
                         lineTo(size.width, 0f)
                         // Parte inferior derecha
                         lineTo(size.width, size.height * 0.5f) // Borde recto hasta la mitad vertical
